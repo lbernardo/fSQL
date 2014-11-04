@@ -40,9 +40,9 @@ Para retornar valores, é preciso executar o método "run()", onde ele salva em 
 Ex:
 <br>
 <code>
- $tabela->run(); // Salvo os dados nos membros do objeto\n
- print $tabela->col_1; // Imprimo a coluna "col_1" da tabela\n
- print $tabela->col_2; // Imprimo a coluna "col_2" da tabela\n
+ $tabela->run(); // Salvo os dados nos membros do objeto
+ print $tabela->col_1; // Imprimo a coluna "col_1" da tabela
+ print $tabela->col_2; // Imprimo a coluna "col_2" da tabela
 </code>
 <br>
 Ex Lista:<br>
