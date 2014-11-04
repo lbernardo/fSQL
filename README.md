@@ -39,16 +39,16 @@ Para retornar valores, é preciso executar o método "run()", onde ele salva em 
 <br>
 Ex:
 <br>
-<code>
+<pre>
  $tabela->run(); // Salvo os dados nos membros do objeto
  print $tabela->col_1; // Imprimo a coluna "col_1" da tabela
  print $tabela->col_2; // Imprimo a coluna "col_2" da tabela
-</code>
+</pre>
 <br>
 Ex Lista:<br>
-<code>
+<pre>
  while($tabela->run()){<br>
   print $tabela->con_1; // Imprimo a coluna "col_1" da linha corrida
  }</br>
- </code>
+ </pre>
  <br><br>
