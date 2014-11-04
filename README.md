@@ -7,7 +7,7 @@ Conexão com banco de dados por meio de objetos
 ===
 Para iniciar o fSQL é preciso criar uma instância da classe fSQL.
 <br>
-$fSQL = new fSQL($host,$user,$pass,$db,$type);
+<code>$fSQL = new fSQL($host,$user,$pass,$db,$type);</code>
 Onde:
 <ul>
  <li>$host: Servidor do banco de dados</li>
@@ -23,4 +23,4 @@ o nome da tabela, onde o sistema retornará uma instância para uma sub-classe (
 funções dentro da tabela
 <br>
 Ex:<br>
-  $tabela = $fSQL->from("teste"); // Seleciona a tabela teste( Select col_1,col_2,...,col_n FROM teste )
+  <code>$tabela = $fSQL->from("teste"); // Seleciona a tabela teste( Select col_1,col_2,...,col_n FROM teste )</code>
