@@ -22,4 +22,3 @@ o nome da tabela, onde o sistema retornará uma instância para uma sub-classe (
 funções dentro da tabela
 Ex:
   $tabela = $fSQL->from("teste"); // Seleciona a tabela teste( Select col_1,col_2,...,col_n FROM teste )
-== 
