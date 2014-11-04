@@ -19,6 +19,6 @@ Onde:
 <h1>Trabalhando com Tabelas</h1>
 Para selecionar tabelas você deve usar a instância do fSQL e chamar o metodo fSQL->from(TABELA) passando como argumento
 o nome da tabela, onde o sistema retornará uma instância para uma sub-classe (fSQL_Table), onde a mesma executara as 
-funções dentro da tabela
-Ex:
+funções dentro da tabela<br>
+Ex:<br>
   $tabela = $fSQL->from("teste"); // Seleciona a tabela teste( Select col_1,col_2,...,col_n FROM teste )
