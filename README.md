@@ -24,3 +24,31 @@ funções dentro da tabela
 <br>
 Ex:<br>
   <code>$tabela = $fSQL->from("teste"); // Seleciona a tabela teste( Select col_1,col_2,...,col_n FROM teste )</code>
+<br>
+<br>
+Para retornar o número de linhas encontradas na consulta usa-se o codigo abaixo:<br>
+<code>print $tabela->rowCount; // Retorna o número de linhas</code>
+<br>
+
+Para executar uma consulta partircular usa:
+<br>
+<code>$tabela->where("col_1='0' AND col_2='n' OR col_3 LIKE '%4%'"); // Usando comando SQL normal
+<br>
+
+Para retornar valores, é preciso executar o método "run()", onde ele salva em um membro do objeto com o nome da coluna. Caso deseje mostrar uma lista o método "run()" deve estar em um loop
+<br>
+Ex:
+<br>
+<code>
+ $tabela->run(); // Salvo os dados nos membros do objeto<br>
+ print $tabela->col_1; // Imprimo a coluna "col_1" da tabela<br>
+ print $tabela->col_2; // Imprimo a coluna "col_2" da tabela<br>
+</code>
+<br>
+Ex Lista:<br>
+<code>
+ while($tabela->run()){<br>
+  print $tabela->con_1; // Imprimo a coluna "col_1" da linha corrida
+ }</br>
+ </code>
+ <br><br>
