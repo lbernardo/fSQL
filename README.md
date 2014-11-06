@@ -68,6 +68,7 @@ Ex Lista:<br>
  $tabela->col_1 = "Ola mundo2"; // Coluna assume valor "Ola mundo2"
  $tabela->save(); // Salvo alterações na tabela
  </pre>
- 
+ <br>
+ Para realizar exclusão de linhas usa-se o método fTable::deleteRow(), ele irá excluir a corrida. Por exemplo, se tiver dentro de um loop ira excluir a linha do loop atual
  
  
